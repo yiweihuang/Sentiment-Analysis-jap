@@ -2,6 +2,7 @@ config/
 data/filter_speech/
 data/raw_data/
 data/classifier/
-sentiment_feature.xlsx
 jSentiments.py
 analysis/
+*.xlsx
+example/
