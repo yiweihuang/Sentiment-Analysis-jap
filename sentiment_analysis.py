@@ -14,7 +14,7 @@ def p_or_n(pScore, nScore):
 
 def write_json(data, path):
     with open(path, 'w') as outfile:
-        json.dump(data, outfile, indent=4)
+        json.dump(data, outfile, indent=4, ensure_ascii = False)
 
 if __name__ == '__main__':
     des_filter_path = 'data/filter_speech/Description.json'

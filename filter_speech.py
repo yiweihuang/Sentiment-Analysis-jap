@@ -37,7 +37,7 @@ def filter_classifier(read_data):
 
 def write_json(data, path):
     with open(path, 'w') as outfile:
-        json.dump(data, outfile, indent=4)
+        json.dump(data, outfile, indent=4, ensure_ascii = False)
 
 if __name__ == '__main__':
     des_path = 'data/raw_data/Description.json'
